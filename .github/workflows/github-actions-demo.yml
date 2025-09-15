@@ -17,7 +17,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
-          context: .
+          context: tp1
           push: true
           tags: andys0804/tp1:latest
 
