@@ -1,0 +1,5 @@
+FROM ghcr.io/mlflow/mlflow:v2.18.0
+
+RUN pip install psycopg2-binary
+
+RUN mkdir mlruns && chmod -R 777 mlruns
